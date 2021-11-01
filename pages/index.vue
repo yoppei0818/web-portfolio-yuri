@@ -25,13 +25,10 @@
   width: 85%;
   display: flex;
   justify-content: space-around;
-  // background-color: rgb(156, 156, 156);
   
   .home-img {
     width: 50%;
     height: 700px;
-    // margin-left: 200px;
-    // background-color: chocolate;
 
     img {
       height: 700px;
@@ -40,7 +37,6 @@
   }
 
   .home-text {
-    // background-color: rgb(255, 249, 218);
     padding: 20px;
     height: 350px;
     border: solid 1px #000;
