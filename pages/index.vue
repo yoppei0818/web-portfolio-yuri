@@ -22,14 +22,15 @@
 <style lang="scss" scoped>
 .home {
   margin: 0 auto;
-  width: 90%;
+  width: 85%;
   display: flex;
+  justify-content: space-around;
   // background-color: rgb(156, 156, 156);
   
   .home-img {
-    width: 40%;
+    width: 50%;
     height: 700px;
-    margin-left: 200px;
+    // margin-left: 200px;
     // background-color: chocolate;
 
     img {
