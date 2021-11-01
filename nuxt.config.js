@@ -25,6 +25,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    'modern-css-reset'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
