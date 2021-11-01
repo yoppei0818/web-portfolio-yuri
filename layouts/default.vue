@@ -1,9 +1,10 @@
 <template>
     <div class="app">
         <div class="header">
-            <Navigation route="/" name="HOME" />
-            <Navigation route="/skill" name="SKILL" />
-            <Navigation route="/work" name="WORK" />
+            <h1>Yuri Yohei.</h1>
+            <Navigation route="/" name="HOME" icon="home" />
+            <Navigation route="/skill" name="SKILL" icon="code" />
+            <Navigation route="/work" name="WORK" icon="gamepad" />
         </div>
         <Nuxt />
     </div>
@@ -20,8 +21,21 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.header {
-    display: flex;
-    background-color: burlywood;
+.app {
+    background-color: rgba(245, 245, 245, 0.836);
+    
+    .header {
+        padding-top: 20px;
+        margin: 0 auto;
+        width: 600px;
+        display: flex;
+        justify-content: space-around;
+
+        h1 {
+            font-weight: 300;
+            font-size: 40px;
+            font-family: 'Ubuntu', sans-serif;
+        }
+    }
 }
 </style>

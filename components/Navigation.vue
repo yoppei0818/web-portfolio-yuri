@@ -1,18 +1,38 @@
 <template>
     <div class="header-item">
-        <!-- <font-awesome-icon icon="home" /> -->
-        <nuxt-link v-bind:to="route">{{ name }}</nuxt-link>
+        <font-awesome-icon class="icon" v-bind:icon="icon" />
+        <nuxt-link class="link" v-bind:to="route">{{ name }}</nuxt-link>
     </div>
 </template>
 
 <script>
 export default {
-    props: ['route', 'name']
+    props: ['route', 'name', 'icon']
 }
 </script>
 
 <style lang="scss" scoped>
     .header-item {
-        background-color: cadetblue;
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+        border-bottom: solid 1px rgba(0,0,0,0.8);
+
+        &:hover {
+            opacity: 0.8;
+        }
+
+        .icon {
+            font-size: 40px;
+            color: rgba(0,0,0,0.8);
+        }
+
+        .link {
+            text-decoration: none;
+            color: #000;
+            font-size: 12px;
+            text-align: center;
+            margin-top: 5px;
+        }
     }
 </style>
