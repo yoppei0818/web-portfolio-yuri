@@ -1,6 +1,6 @@
 <template>
     <div class="header-item">
-        <font-awesome-icon class="icon" v-bind:icon="icon" />
+        <font-awesome-icon class="icon" v-bind:icon="['fas', icon]" />
         <nuxt-link class="link" v-bind:to="route">{{ name }}</nuxt-link>
     </div>
 </template>
