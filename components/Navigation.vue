@@ -23,8 +23,8 @@ export default {
         }
 
         .icon {
-            font-size: 40px;
-            color: rgba(0,0,0,0.8);
+            font-size: 35px;
+            color: rgba(0,0,0,0.9);
         }
 
         .link {

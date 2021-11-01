@@ -21,11 +21,11 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    'modern-css-reset'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    'modern-css-reset'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
