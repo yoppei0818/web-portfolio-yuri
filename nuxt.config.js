@@ -1,5 +1,6 @@
 import Sass from 'sass'
 import Fiber from 'fibers'
+import * as FontAwesome from './build/fontawesome'
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -33,25 +34,23 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    ['@nuxtjs/fontawesome', { component: 'fontAwesome', suffix: true }]
   ],
+  fontawesome: {
+    icons: {
+      solid: FontAwesome.solid,
+      brands: FontAwesome.brands
+    }
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    'nuxt-fontawesome',
     'nuxt-webfontloader'
   ],
   webfontloader: {
     google: {
       families: ['Ubuntu'] 
     }
-  },
-  fontawesome: {
-    imports: [
-      {
-        set: '@fortawesome/free-solid-svg-icons',
-        icons: ['fas'],
-      },
-    ],
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
