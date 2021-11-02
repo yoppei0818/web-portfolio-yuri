@@ -45,12 +45,16 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    'nuxt-webfontloader'
+    'nuxt-webfontloader',
+    '@nuxtjs/style-resources',
   ],
   webfontloader: {
     google: {
       families: ['Ubuntu'] 
     }
+  },
+  styleResources: {
+    scss: ['~/assets/scss/_variable.scss'],
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

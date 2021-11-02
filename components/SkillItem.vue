@@ -15,7 +15,7 @@ export default {
 .skill-item {
     width: 25%;
     background-color: #fff;
-    border: 2px solid rgba(0,0,0,.8);
+    border: 2px solid $LightBlack;
     border-radius: 15px;
     margin: 15px;
     padding: 30px 15px;

@@ -1,0 +1,15 @@
+// ブレイクポイント
+$pc: "@media screen and (min-width: 1025px) ";
+$tab: "@media screen and (min-width: 600px) ";
+
+// カラー
+$LightBlack: rgba(0, 0, 0, 0.8);
+
+// mixin
+@mixin basePage {
+  margin: 0 auto;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

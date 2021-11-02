@@ -22,11 +22,7 @@ export default {
 
 <style lang="scss" scoped>
 .skill {
-    margin: 0 auto;
-    width: 85%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    @include basePage;
     margin-top: 100px;
 }
 </style>

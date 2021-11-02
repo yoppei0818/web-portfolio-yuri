@@ -16,7 +16,7 @@ export default {
         display: flex;
         flex-direction: column;
         margin: 15px;
-        border-bottom: solid 1px rgba(0,0,0,0.8);
+        border-bottom: solid 1px $LightBlack;
 
         &:hover {
             opacity: 0.8;
@@ -24,7 +24,7 @@ export default {
 
         .icon {
             font-size: 35px;
-            color: rgba(0,0,0,0.9);
+            color: $LightBlack;
         }
 
         .link {
