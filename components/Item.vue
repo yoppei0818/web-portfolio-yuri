@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="item">
         <font-awesome-icon class="icon" v-bind:icon="['fab', icon]" />
         <h1>{{ name }}</h1>
     </div>

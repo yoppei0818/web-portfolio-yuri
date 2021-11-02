@@ -25,19 +25,11 @@
   width: 85%;
   display: flex;
   justify-content: space-around;
-<<<<<<< HEAD
-=======
   // background-color: rgb(156, 156, 156);
->>>>>>> skill-dev
   
   .home-img {
     width: 50%;
     height: 700px;
-<<<<<<< HEAD
-=======
-    // margin-left: 200px;
-    // background-color: chocolate;
->>>>>>> skill-dev
 
     img {
       height: 700px;

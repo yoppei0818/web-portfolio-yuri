@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="skill">
         <Item name="HTML5" icon='html5' />
         <Item name="CSS3" icon='css3' />
         <Item name="Vue/Nuxt" icon='vuejs' />
@@ -21,4 +21,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.skill {
+    width: 85%;
+}
 </style>
