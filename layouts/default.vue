@@ -23,7 +23,7 @@ export default {
 <style lang="scss" scoped>
 .app {
     background-color: rgba(245, 245, 245, 0.836);
-    padding-bottom: 58px;
+    height: 100vh; 
 
     .header {
         padding-top: 20px;
