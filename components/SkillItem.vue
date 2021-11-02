@@ -1,5 +1,5 @@
 <template>
-    <div class="item">
+    <div class="skill-item">
         <font-awesome-icon class="icon" :icon="['fab', icon]" :style="style" />
         <p>{{ name }}</p>
     </div>
@@ -12,7 +12,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.item {
+.skill-item {
     width: 25%;
     background-color: #fff;
     border: 2px solid rgba(0,0,0,.8);
