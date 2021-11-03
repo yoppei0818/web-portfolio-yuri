@@ -12,6 +12,12 @@
             title="釧路公立大学　ストリートダンスサークルOZ　webサイト"
             lang="HTML/CSS/JavaScript"
         />
+        <WorkItem 
+            link="https://github.com/yoppei0818/weather-api-app.git"
+            src="images/天気アプリ.png"
+            title="天気アプリ"
+            lang="HTML/SCSS/Vue/Heroku"
+        />
     </div>
 </template>
 
