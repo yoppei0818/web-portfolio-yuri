@@ -25,19 +25,33 @@ export default {
     background-color: rgba(245, 245, 245, 0.836);
     height: 100vh; 
 
+    @include sp {
+        height: 110vh; 
+    }
+
     .header {
         padding-top: 20px;
         margin: 0 auto;
-        width: 600px;
+        width: 42%;
         display: flex;
         justify-content: space-around;
         margin-bottom: 25px;
+        // background-color: aqua;
+
+        @include sp {
+            width: 80%;
+            margin-bottom: 10px;
+        }
 
         h1 {
             font-weight: 300;
             font-size: 40px;
             font-family: 'Ubuntu', sans-serif;
             padding-top: 25px;
+
+            @include sp {
+                font-size: 20px;
+            }
         }
     }
 }

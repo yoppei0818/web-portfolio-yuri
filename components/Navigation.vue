@@ -25,6 +25,10 @@ export default {
         .icon {
             font-size: 35px;
             color: $LightBlack;
+
+            @include sp {
+                font-size: 25px;
+            }
         }
 
         .link {
@@ -33,6 +37,10 @@ export default {
             font-size: 12px;
             text-align: center;
             margin-top: 5px;
+
+            @include sp {
+                font-size: 10px;
+            }
         }
     }
 </style>
