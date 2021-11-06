@@ -26,7 +26,7 @@ export default {
     height: 100vh; 
 
     @include sp {
-        height: 110vh; 
+        height: 125vh; 
     }
 
     .header {
@@ -41,6 +41,7 @@ export default {
         @include sp {
             width: 80%;
             margin-bottom: 10px;
+            padding-top: 10px;
         }
 
         h1 {
