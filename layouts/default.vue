@@ -25,8 +25,12 @@ export default {
     background-color: rgba(245, 245, 245, 0.836);
     height: 100vh; 
 
+    @include tab {
+        height: 115vh;
+    }
+
     @include sp {
-        height: 125vh; 
+        height: 135vh; 
     }
 
     .header {
@@ -36,7 +40,10 @@ export default {
         display: flex;
         justify-content: space-around;
         margin-bottom: 25px;
-        // background-color: aqua;
+
+        @include tab {
+            width: 65%;
+        }
 
         @include sp {
             width: 80%;

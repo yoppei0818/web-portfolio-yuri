@@ -25,7 +25,11 @@
   width: 85%;
   display: flex;
   justify-content: space-around;
-  // background-color: aqua;
+
+  @include tab {
+    justify-content: center;
+    flex-direction: column;
+  }
 
   @include sp {
     justify-content: center;
@@ -36,6 +40,12 @@
     width: 50%;
     height: 700px;
 
+    @include tab {
+      margin: 0 auto;
+      width: 80%;
+      height: 500px;
+    }
+
     @include sp {
       width: 100%;
       height: 320px;
@@ -45,6 +55,10 @@
     img {
       height: 700px;
       margin: 0 auto;
+
+      @include tab {
+        height: 500px;
+      }
 
       @include sp {
       height: 300px;
@@ -57,6 +71,12 @@
     height: 350px;
     border: solid 1px #000;
     margin-top: 180px;
+
+    @include tab {
+      margin: 0 auto;
+      width: 80%;
+      margin-top: 20px;
+    }
 
     @include sp {
       padding: 20px;
@@ -87,7 +107,6 @@
         @include sp {
           letter-spacing: 0px;
           font-size: 14px;
-          // line-height: 25px;
         }
       }
 

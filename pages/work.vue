@@ -36,6 +36,10 @@ export default {
     @include basePage;
     margin-top: 100px;
 
+    @include tab {
+        margin-top: 60px;
+    }
+
     @include sp {
         margin-top: 25px;
         flex-wrap: nowrap;

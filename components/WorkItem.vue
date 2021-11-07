@@ -26,6 +26,10 @@ export default {
     transition: 0.3s;
     cursor: pointer;
 
+    @include tab {
+        width: 40%;
+    }
+
     @include sp {
         margin: 0 auto;
         margin-bottom: 20px;
@@ -46,6 +50,10 @@ export default {
             width: 90%;
             box-shadow: 1px 1px 10px $LightBlack;
             
+            @include tab {
+                width: 85%;
+            }
+
             @include sp {
                 width: 80%;
             }
@@ -56,6 +64,10 @@ export default {
             font-size: 18px;
             font-weight: 600;
             margin-top: 20px;
+
+            @include tab {
+                font-size: 16px;
+            }
 
             @include sp {
                 font-size: 14px;
