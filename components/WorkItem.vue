@@ -26,6 +26,13 @@ export default {
     transition: 0.3s;
     cursor: pointer;
 
+    @include sp {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 80%;
+        padding: 25px 15px;
+    }
+
     &:hover {
         box-shadow: 0 3px 5px black;
         transform: translate(0, -3px);
@@ -39,6 +46,9 @@ export default {
             width: 90%;
             box-shadow: 1px 1px 10px $LightBlack;
             
+            @include sp {
+                width: 80%;
+            }
         }
         
         .title {
@@ -46,6 +56,10 @@ export default {
             font-size: 18px;
             font-weight: 600;
             margin-top: 20px;
+
+            @include sp {
+                font-size: 14px;
+            }
         }
 
         .lang {
@@ -53,6 +67,10 @@ export default {
             font-size: 12px;
             font-weight: 600;
             margin-top: 20px;
+
+            @include sp {
+                margin-top: 10px;
+            }
         }
     }
 }

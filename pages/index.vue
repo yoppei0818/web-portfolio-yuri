@@ -7,7 +7,7 @@
       <p>About</p>
       <ul>
         <li>釧路公立大学　4年生</li>
-        <li><span class="name">由利洋平</span>（ゆり ようへい）</li>
+        <li><span class="name">由利 洋平</span>（ゆり ようへい）</li>
         <br>
         <li>趣味：ギター、旅行、音楽鑑賞、アニメ鑑賞、釣り、ダンス</li>
         <br>

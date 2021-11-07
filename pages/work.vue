@@ -35,5 +35,12 @@ export default {
 .work {
     @include basePage;
     margin-top: 100px;
+
+    @include sp {
+        margin-top: 25px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 </style>
